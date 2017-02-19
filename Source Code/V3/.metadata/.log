@@ -1,0 +1,745 @@
+!SESSION 2009-12-22 16:08:02.390 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui.intro.universal 4 0 2009-12-22 16:11:30.406
+!MESSAGE C:\Documents and Settings\Administrator\Desktop\6th Semester\Project\Eclipse\eclipse\introData.xml (The system cannot find the file specified)
+!STACK 0
+java.io.FileNotFoundException: C:\Documents and Settings\Administrator\Desktop\6th Semester\Project\Eclipse\eclipse\introData.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.eclipse.ui.internal.intro.universal.IntroData.parse(IntroData.java:159)
+	at org.eclipse.ui.internal.intro.universal.IntroData.initialize(IntroData.java:63)
+	at org.eclipse.ui.internal.intro.universal.IntroData.<init>(IntroData.java:47)
+	at org.eclipse.ui.internal.intro.universal.CustomizationContentsArea.loadData(CustomizationContentsArea.java:624)
+	at org.eclipse.ui.internal.intro.universal.CustomizationContentsArea.addPages(CustomizationContentsArea.java:489)
+	at org.eclipse.ui.internal.intro.universal.CustomizationContentsArea.createContents(CustomizationContentsArea.java:453)
+	at org.eclipse.ui.internal.intro.universal.CustomizationDialog.createDialogArea(CustomizationDialog.java:44)
+	at org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:760)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1089)
+	at org.eclipse.jface.window.Window.open(Window.java:790)
+	at org.eclipse.ui.internal.intro.universal.CustomizeAction.run(CustomizeAction.java:35)
+	at org.eclipse.ui.internal.intro.universal.CustomizeAction.run(CustomizeAction.java:29)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3880)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3473)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SESSION 2010-01-30 12:52:13.281 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2010-01-30 13:00:31.328
+!MESSAGE VariableBlock: Classpath variable with null value: JUNIT_SRC_HOME
+!SESSION 2010-01-30 13:09:13.531 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2010-01-30 13:21:34.296
+!MESSAGE VariableBlock: Classpath variable with null value: JUNIT_SRC_HOME
+!SESSION 2010-02-01 18:37:54.343 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:37:58.250
+!MESSAGE The installable unit java3d_windows_amd64.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:37:58.250
+!MESSAGE The installable unit java3d_solaris_x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:37:58.250
+!MESSAGE The installable unit java3d_linux_i586.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:37:58.250
+!MESSAGE The installable unit java3d_windows_i586.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:37:58.250
+!MESSAGE The installable unit java3d_macosx.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:37:58.250
+!MESSAGE The installable unit java3d_linux_amd64.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:37:58.265
+!MESSAGE The installable unit java3d_solaris_sparc.translated_host_properties is missing the filename property.
+!SESSION 2010-02-01 18:42:43.140 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.250
+!MESSAGE The installable unit java3d_windows_amd64.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.250
+!MESSAGE The installable unit java3d_solaris_x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.250
+!MESSAGE The installable unit java3d_linux_i586.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.250
+!MESSAGE The installable unit java3d_windows_i586.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.265
+!MESSAGE The installable unit java3d_macosx.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.265
+!MESSAGE The installable unit java3d_linux_amd64.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.265
+!MESSAGE The installable unit java3d_solaris_sparc.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.421
+!MESSAGE The installable unit java3d_windows_amd64.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.421
+!MESSAGE The installable unit java3d_solaris_x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.421
+!MESSAGE The installable unit java3d_linux_i586.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.421
+!MESSAGE The installable unit java3d_windows_i586.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.421
+!MESSAGE The installable unit java3d_macosx.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.421
+!MESSAGE The installable unit java3d_linux_amd64.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:42:45.421
+!MESSAGE The installable unit java3d_solaris_sparc.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-02-01 18:42:45.875
+!MESSAGE Unable to find feature.xml in directory: C:\Documents and Settings\Administrator\Desktop\6th Semester\Project - V3\Eclipse\eclipse\features\java3d_1.5.1.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-02-01 18:42:45.875
+!MESSAGE Unable to find feature.xml in directory: C:\Documents and Settings\Administrator\Desktop\6th Semester\Project - V3\Eclipse\eclipse\features\jogl_1.1.2.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2010-02-01 18:42:45.875
+!MESSAGE Unable to find feature.xml in directory: C:\Documents and Settings\Administrator\Desktop\6th Semester\Project - V3\Eclipse\eclipse\features\org.java3declipse.core_1.1.0.jar
+!SESSION 2010-02-01 18:52:42.703 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.828
+!MESSAGE The installable unit java3d_windows_amd64.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.828
+!MESSAGE The installable unit java3d_solaris_x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.828
+!MESSAGE The installable unit java3d_linux_i586.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.828
+!MESSAGE The installable unit java3d_windows_i586.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.828
+!MESSAGE The installable unit java3d_macosx.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.828
+!MESSAGE The installable unit java3d_linux_amd64.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.828
+!MESSAGE The installable unit java3d_solaris_sparc.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.984
+!MESSAGE The installable unit java3d_windows_amd64.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.984
+!MESSAGE The installable unit java3d_solaris_x86.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.984
+!MESSAGE The installable unit java3d_linux_i586.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.984
+!MESSAGE The installable unit java3d_windows_i586.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.984
+!MESSAGE The installable unit java3d_macosx.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.984
+!MESSAGE The installable unit java3d_linux_amd64.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2010-02-01 18:52:44.984
+!MESSAGE The installable unit java3d_solaris_sparc.translated_host_properties is missing the filename property.
+!SESSION 2010-03-06 18:57:08.421 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface.text 2 0 2010-03-06 20:07:05.312
+!MESSAGE 
+!STACK 0
+org.eclipse.text.edits.MalformedTreeException: End position lies outside document range
+	at org.eclipse.text.edits.TextEditProcessor.checkIntegrityDo(TextEditProcessor.java:178)
+	at org.eclipse.text.edits.TextEdit.dispatchCheckIntegrity(TextEdit.java:743)
+	at org.eclipse.text.edits.TextEditProcessor.performEdits(TextEditProcessor.java:151)
+	at org.eclipse.ltk.core.refactoring.TextChange.getPreviewDocument(TextChange.java:534)
+	at org.eclipse.ltk.core.refactoring.TextChange.getPreviewDocument(TextChange.java:403)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.CUCorrectionProposal.getAdditionalProposalInfo(CUCorrectionProposal.java:154)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2010-03-12 16:13:06.406 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2010-03-12 16:37:18.515
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: First position: '' at 8398, this position: 'public' at 8403
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.CUCorrectionProposal.performChange(CUCorrectionProposal.java:343)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.CUCorrectionProposal.apply(CUCorrectionProposal.java:301)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:931)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:877)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$27(CompletionProposalPopup.java:873)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$5.widgetDefaultSelected(CompletionProposalPopup.java:655)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3880)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3473)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+Caused by: org.eclipse.jface.text.BadLocationException: First position: '' at 8398, this position: 'public' at 8403
+	at org.eclipse.jface.text.link.LinkedPositionGroup.enforceEqualContent(LinkedPositionGroup.java:132)
+	at org.eclipse.jface.text.link.LinkedPositionGroup.addPosition(LinkedPositionGroup.java:113)
+	at org.eclipse.jdt.internal.ui.viewsupport.LinkedProposalModelPresenter.enterLinkedMode(LinkedProposalModelPresenter.java:94)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.CUCorrectionProposal.performChange(CUCorrectionProposal.java:332)
+	... 30 more
+!SUBENTRY 1 org.eclipse.jdt.ui 4 4 2010-03-12 16:37:18.515
+!MESSAGE First position: '' at 8398, this position: 'public' at 8403
+!STACK 0
+org.eclipse.jface.text.BadLocationException: First position: '' at 8398, this position: 'public' at 8403
+	at org.eclipse.jface.text.link.LinkedPositionGroup.enforceEqualContent(LinkedPositionGroup.java:132)
+	at org.eclipse.jface.text.link.LinkedPositionGroup.addPosition(LinkedPositionGroup.java:113)
+	at org.eclipse.jdt.internal.ui.viewsupport.LinkedProposalModelPresenter.enterLinkedMode(LinkedProposalModelPresenter.java:94)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.CUCorrectionProposal.performChange(CUCorrectionProposal.java:332)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.CUCorrectionProposal.apply(CUCorrectionProposal.java:301)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:931)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:877)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$27(CompletionProposalPopup.java:873)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$5.widgetDefaultSelected(CompletionProposalPopup.java:655)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3880)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3473)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SESSION 2010-03-17 18:27:41.609 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2010-03-17 19:58:49.078
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.CUCorrectionProposal.performChange(CUCorrectionProposal.java:343)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.CUCorrectionProposal.apply(CUCorrectionProposal.java:301)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:931)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:877)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$27(CompletionProposalPopup.java:873)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$5.widgetDefaultSelected(CompletionProposalPopup.java:655)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3880)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3473)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+Caused by: org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.link.LinkedPositionGroup.enforceDisjoint(LinkedPositionGroup.java:148)
+	at org.eclipse.jface.text.link.LinkedPositionGroup.addPosition(LinkedPositionGroup.java:112)
+	at org.eclipse.jdt.internal.ui.viewsupport.LinkedProposalModelPresenter.enterLinkedMode(LinkedProposalModelPresenter.java:94)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.CUCorrectionProposal.performChange(CUCorrectionProposal.java:332)
+	... 30 more
+!SUBENTRY 1 org.eclipse.jdt.ui 4 4 2010-03-17 19:58:49.078
+!MESSAGE org.eclipse.jface.text.BadLocationException
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.link.LinkedPositionGroup.enforceDisjoint(LinkedPositionGroup.java:148)
+	at org.eclipse.jface.text.link.LinkedPositionGroup.addPosition(LinkedPositionGroup.java:112)
+	at org.eclipse.jdt.internal.ui.viewsupport.LinkedProposalModelPresenter.enterLinkedMode(LinkedProposalModelPresenter.java:94)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.CUCorrectionProposal.performChange(CUCorrectionProposal.java:332)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.CUCorrectionProposal.apply(CUCorrectionProposal.java:301)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:931)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:877)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$27(CompletionProposalPopup.java:873)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$5.widgetDefaultSelected(CompletionProposalPopup.java:655)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:113)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3880)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3473)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SESSION 2010-03-21 09:52:58.406 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.osgi 2 0 2010-03-21 09:53:25.218
+!MESSAGE While loading class "org.eclipse.team.internal.ccvs.core.resources.CVSWorkspaceRoot", thread "Thread[Worker-4,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-0,5,main]" to finish starting bundle "org.eclipse.team.cvs.core_3.3.200.I20090430-0408 [193]". To avoid deadlock, thread "Thread[Worker-4,5,main]" is proceeding but "org.eclipse.team.internal.ccvs.core.resources.CVSWorkspaceRoot" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.team.cvs.core_3.3.200.I20090430-0408.jar" by thread "Worker-0".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:376)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:405)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 22 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:376)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:405)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2010-03-21 09:53:30.421
+!MESSAGE While loading class "org.eclipse.team.internal.ccvs.core.ICVSFile", thread "Thread[Worker-4,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-0,5,main]" to finish starting bundle "org.eclipse.team.cvs.core_3.3.200.I20090430-0408 [193]". To avoid deadlock, thread "Thread[Worker-4,5,main]" is proceeding but "org.eclipse.team.internal.ccvs.core.ICVSFile" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.team.cvs.core_3.3.200.I20090430-0408.jar" by thread "Worker-0".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:376)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:405)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 22 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:376)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:405)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2010-03-21 09:53:30.421
+!MESSAGE While loading class "org.eclipse.team.internal.ccvs.core.CVSWorkspaceSubscriber", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-0,5,main]" to finish starting bundle "org.eclipse.team.cvs.core_3.3.200.I20090430-0408 [193]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "org.eclipse.team.internal.ccvs.core.CVSWorkspaceSubscriber" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.team.cvs.core_3.3.200.I20090430-0408.jar" by thread "Worker-0".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:376)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:449)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:405)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.team.internal.ccvs.ui.CVSUIPlugin.start(CVSUIPlugin.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:782)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:773)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:754)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:352)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:376)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:449)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:405)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.mylyn.internal.team.ccvs.CvsActiveChangeSetProvider.getActiveChangeSetManager(CvsActiveChangeSetProvider.java:26)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin.addActiveChangeSetProvider(FocusedTeamUiPlugin.java:127)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamExtensionPointReader.readExtensions(FocusedTeamExtensionPointReader.java:53)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin$1.run(FocusedTeamUiPlugin.java:80)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 61 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:376)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:449)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:405)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.team.internal.ccvs.ui.CVSUIPlugin.start(CVSUIPlugin.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:782)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:773)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:754)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:352)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:376)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:449)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:405)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.mylyn.internal.team.ccvs.CvsActiveChangeSetProvider.getActiveChangeSetManager(CvsActiveChangeSetProvider.java:26)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin.addActiveChangeSetProvider(FocusedTeamUiPlugin.java:127)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamExtensionPointReader.readExtensions(FocusedTeamExtensionPointReader.java:53)
+	at org.eclipse.mylyn.internal.team.ui.FocusedTeamUiPlugin$1.run(FocusedTeamUiPlugin.java:80)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.osgi 2 0 2010-03-21 09:53:35.468
+!MESSAGE While loading class "org.eclipse.team.internal.ccvs.core.resources.EclipseFolder", thread "Thread[Worker-4,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-0,5,main]" to finish starting bundle "org.eclipse.team.cvs.core_3.3.200.I20090430-0408 [193]". To avoid deadlock, thread "Thread[Worker-4,5,main]" is proceeding but "org.eclipse.team.internal.ccvs.core.resources.EclipseFolder" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.team.cvs.core_3.3.200.I20090430-0408.jar" by thread "Worker-0".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:376)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:405)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.resources.CVSWorkspaceRoot.getCVSFolderFor(CVSWorkspaceRoot.java:66)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 23 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:376)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:452)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:405)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.team.internal.ccvs.core.resources.CVSWorkspaceRoot.getCVSFolderFor(CVSWorkspaceRoot.java:66)
+	at org.eclipse.team.internal.ccvs.core.util.BuildCleanupListener.resourceChanged(BuildCleanupListener.java:120)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:297)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2010-04-01 12:34:01.687 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.net 1 0 2010-04-01 12:39:45.406
+!MESSAGE System property http.proxyHost is not set but should be mizone.
+
+!ENTRY org.eclipse.core.net 1 0 2010-04-01 12:39:45.406
+!MESSAGE System property http.proxyPort is not set but should be 9401.
+
+!ENTRY org.eclipse.core.net 1 0 2010-04-01 12:39:47.031
+!MESSAGE System property http.proxyHost is not set but should be mizone.
+
+!ENTRY org.eclipse.core.net 1 0 2010-04-01 12:39:47.031
+!MESSAGE System property http.proxyPort is not set but should be 9401.
+
+!ENTRY org.eclipse.core.net 1 0 2010-04-01 12:39:47.031
+!MESSAGE System property http.proxyHost is not set but should be mizone.
+
+!ENTRY org.eclipse.core.net 1 0 2010-04-01 12:39:47.031
+!MESSAGE System property http.proxyPort is not set but should be 9401.
+
+!ENTRY org.eclipse.core.net 1 0 2010-04-01 12:39:47.062
+!MESSAGE System property http.proxyHost is not set but should be mizone.
+
+!ENTRY org.eclipse.core.net 1 0 2010-04-01 12:39:47.062
+!MESSAGE System property http.proxyPort is not set but should be 9401.

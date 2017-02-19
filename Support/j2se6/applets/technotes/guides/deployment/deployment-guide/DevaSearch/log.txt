@@ -1,0 +1,408 @@
+INDEXER SETTINGS:
+ Minimum term length: 2
+ Maximum term length: 20
+ Index files with extensions: htm html 
+ Ignore files and directories: 
+
+Starting indexer at "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide"
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\applet-compatibility.html"
+  Last updated: 
+  File Size: 16 KB
+  Title: Applet Compatibility -- Microsoft vs Java 2 Virtual Machine KB
+  Description: ... Machine This document describes all known applet compatibility issues between the Microsoft Virtual Machine KB
+  Total terms in file: 509
+  Total terms indexed: 402
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\applet.html"
+  Last updated: 
+  File Size: 8 KB
+  Title: The APPLET Tag KB
+  Description: ... example of a simple APPLET tag: &lt;applet code='MyApplet.class' width=100 height=140&gt;&lt;/applet&gt; This tells the viewer KB
+  Total terms in file: 292
+  Total terms indexed: 215
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\autodl-files.html"
+  Last updated: 
+  File Size: 4 KB
+  Title: Autodownload Files KB
+  Description: ... below lists various JRE releases and the .cab files that can be used for KB
+  Total terms in file: 82
+  Total terms indexed: 45
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\autodownload.html"
+  Last updated: 
+  File Size: 1 KB
+  Title: Autodownload KB
+  Description: ... Java Plug-in and Java Web Start make use of the codebase attribute of the KB
+  Total terms in file: 56
+  Total terms indexed: 35
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\console.html"
+  Last updated: 
+  File Size: 7 KB
+  Title: Java Plug-in Console KB
+  Description: ... following topics: What is Java Console? Debugging Options Task-Bar Integration Startup Behavior What is KB
+  Total terms in file: 248
+  Total terms indexed: 177
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\contents.html"
+  Last updated: 
+  File Size: 4 KB
+  Title: Contents KB
+  Description: ... There are two ways to navigate this guide: Search the guide Select from the KB
+  Total terms in file: 67
+  Total terms indexed: 51
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\faq.html"
+  Last updated: 
+  File Size: 14 KB
+  Title: Windows Installation (IFTW) and Java Update FAQ KB
+  Description: ... FAQ &nbsp; Questions: Q. I have &quot;Check for Updates Automatically&quot; checked in the Java KB
+  Total terms in file: 412
+  Total terms indexed: 314
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\install-msi.html"
+  Last updated: 
+  File Size: 2 KB
+  Title:  KB
+  Description: ... Directory Distribution This procedure describes how to obtain the .msi file necessary to deploy KB
+  Total terms in file: 116
+  Total terms indexed: 82
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\java-update.html"
+  Last updated: 
+  File Size: 1 KB
+  Title: Java Update KB
+  Description: ... Installing the J2RE automatically installs the Java Update feature. Java Update can keep your KB
+  Total terms in file: 93
+  Total terms indexed: 60
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\jcp.html"
+  Last updated: 
+  File Size: 32 KB
+  Title: Java Control Panel KB
+  Description: ... KB
+  Total terms in file: 640
+  Total terms indexed: 510
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\language.html"
+  Last updated: 
+  File Size: 2 KB
+  Title: Language IDs KB
+  Description: ... localized language IDs for the installer: Language Language ID English (en) 1033 French (fr) KB
+  Total terms in file: 40
+  Total terms indexed: 36
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\overview.html"
+  Last updated: 
+  File Size: 4 KB
+  Title: Java Deployment Overview KB
+  Description: ... all the the following topic areas: Installation of the Java Platform Before Java applications KB
+  Total terms in file: 192
+  Total terms indexed: 143
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\pack200.html"
+  Last updated: 
+  File Size: 10 KB
+  Title: Pack200 and Compression for Network Deployment KB
+  Description: ... Introduction To increase server and network availability and band-width, two new compression formats are KB
+  Total terms in file: 434
+  Total terms indexed: 339
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\properties.html"
+  Last updated: 
+  File Size: 24 KB
+  Title: System- and User-Levl Properties KB
+  Description: ... includes the following topics: Overview The location of the deployment.properties files The properties that KB
+  Total terms in file: 407
+  Total terms indexed: 283
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\proxie_config.html"
+  Last updated: 
+  File Size: 14 KB
+  Title: Proxy Configuration KB
+  Description: ... following topics: Introduction &nbsp; How Java Plug-in and Java Web Start Obtain Proxy Information KB
+  Total terms in file: 362
+  Total terms indexed: 272
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\silent.html"
+  Last updated: 
+  File Size: 9 KB
+  Title: Silent Installation KB
+  Description: ... following topics: Introduction Running InstallShield in Silent Mode: Installation Running InstallShield in Silent Mode: KB
+  Total terms in file: 276
+  Total terms indexed: 191
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\tracing_logging.html"
+  Last updated: 
+  File Size: 5 KB
+  Title: Tracing and Logging KB
+  Description: ... the following topics: Tracing Logging Other Options Tracing Tracing is a facility to redirect KB
+  Total terms in file: 199
+  Total terms indexed: 137
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\version-format.html"
+  Last updated: 
+  File Size: 3 KB
+  Title: Versions Formats KB
+  Description: ... Formats Specification-Version and Implementation-Version follow these rules for Sun products, and third-party products must KB
+  Total terms in file: 141
+  Total terms indexed: 89
+
+Enter directory: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\applet_files"
+Enter directory: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\DevaSearch"
+Enter directory: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\images"
+Enter directory: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\styles"
+Enter directory: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide"
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-01.html"
+  Last updated: 
+  File Size: 3 KB
+  Title: java.lang.ClassFormatError ... KB
+  Description: ... When running an applet in a browser using the Sun JVM, a ClassFormatError is KB
+  Total terms in file: 175
+  Total terms indexed: 122
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-02.html"
+  Last updated: 
+  File Size: 3 KB
+  Title: Applet packaged as .cab file ... KB
+  Description: ... in java.lang.ClassNotFoundException thrown when applet runs. Symptoms When running an applet in a browser KB
+  Total terms in file: 94
+  Total terms indexed: 66
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-03.html"
+  Last updated: 
+  File Size: 4 KB
+  Title: Applet is no longer signed after repackaging signed .cab files ... KB
+  Description: ... repackaging signed .cab files as .jar files Symptoms After repackaging signed .cab files as KB
+  Total terms in file: 168
+  Total terms indexed: 126
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-04.html"
+  Last updated: 
+  File Size: 3 KB
+  Title: java.security.AccessControlException thrown ... KB
+  Description: ... Symptoms When running an applet in a browser using the Sun JRE, an AccessControlException KB
+  Total terms in file: 114
+  Total terms indexed: 68
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-05.html"
+  Last updated: 
+  File Size: 5 KB
+  Title: java.lang.ClassNotFoundException thrown ... KB
+  Description: ... applet runs Symptoms When running an applet in a browser using the Sun JRE, KB
+  Total terms in file: 108
+  Total terms indexed: 72
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-06.html"
+  Last updated: 
+  File Size: 3 KB
+  Title: java.lang.ClassNotFoundException thrown ... KB
+  Description: ... applet runs Symptoms When running an applet in a browser using the Sun JRE, KB
+  Total terms in file: 86
+  Total terms indexed: 58
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-07.html"
+  Last updated: 
+  File Size: 4 KB
+  Title: Deadlock in AWT if methods of the applet are over-synchronized KB
+  Description: ... the applet are over-synchronized Symptoms When running an applet in a browser using the KB
+  Total terms in file: 137
+  Total terms indexed: 89
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-08.html"
+  Last updated: 
+  File Size: 6 KB
+  Title: java.lang.ClassCastException thrown ... KB
+  Description: ... dispatching thread when the mouse moves over an applet frame Symptoms When running an KB
+  Total terms in file: 129
+  Total terms indexed: 79
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-09.html"
+  Last updated: 
+  File Size: 8 KB
+  Title: java.lang.NullPointerException thrown from a thread ... KB
+  Description: ... Applet.start() or Applet.stop() is called Symptoms When running an applet in a browser using KB
+  Total terms in file: 110
+  Total terms indexed: 71
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-10-BU-2.html"
+  Last updated: 
+  File Size: 2 KB
+  Title: NullPointerException thrown in java.awt.Graphics.drawString() KB
+  Description: ... running an applet in a browser using the Sun JRE, a NullPointerException is thrown KB
+  Total terms in file: 87
+  Total terms indexed: 51
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-10-BU.html"
+  Last updated: 
+  File Size: 2 KB
+  Title: NullPointerException thrown in java.awt.Graphics.drawString() KB
+  Description: ... running an applet in a browser using the Sun JRE, a NullPointerException is thrown KB
+  Total terms in file: 87
+  Total terms indexed: 51
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-10.html"
+  Last updated: 
+  File Size: 2 KB
+  Title: NullPointerException thrown in java.awt.Graphics.drawString() KB
+  Description: ... running an applet in a browser using the Sun JRE, a NullPointerException is thrown KB
+  Total terms in file: 87
+  Total terms indexed: 51
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-11.html"
+  Last updated: 
+  File Size: 3 KB
+  Title: NullPointerException thrown in java.awt.Graphics.drawImage() KB
+  Description: ... running an applet in a browser using the Sun JRE, a NullPointerException is thrown KB
+  Total terms in file: 98
+  Total terms indexed: 57
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-12.html"
+  Last updated: 
+  File Size: 3 KB
+  Title: java.lang.IllegalArgumentException thrown in java.awt.Color constructor ... KB
+  Description: ... When running an applet in a browser using the Sun JRE, an IllegalArgumentException is KB
+  Total terms in file: 103
+  Total terms indexed: 60
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-13.html"
+  Last updated: 
+  File Size: 6 KB
+  Title: java.security.AccessControlException thrown ... KB
+  Description: ... , or resume method of java.lang.Thread Symptoms When running an applet in a browser KB
+  Total terms in file: 170
+  Total terms indexed: 110
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-14.html"
+  Last updated: 
+  File Size: 5 KB
+  Title: java.lang.InstantiationException: Either &quot;code&quot; or &quot;object&quot; ... KB
+  Description: ... should be specified, but not both. Symptoms When running an applet in a browser KB
+  Total terms in file: 77
+  Total terms indexed: 49
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-15.html"
+  Last updated: 
+  File Size: 2 KB
+  Title: Signed applet upgraded from .cab to .jar files ... KB
+  Description: ... .jar files throws a security exception when run in Microsoft VM Symptoms After upgrading KB
+  Total terms in file: 97
+  Total terms indexed: 68
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-16.html"
+  Last updated: 
+  File Size: 3 KB
+  Title: Java Plug-in does not use the certificates in the browser certificate store KB
+  Description: ... certificates in the browser certificate store for HTTPS client authentication. Symptoms Unable to use KB
+  Total terms in file: 131
+  Total terms indexed: 97
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-17.html"
+  Last updated: 
+  File Size: 7 KB
+  Title: Redirection between HTTP URL and HTTPS URL is not followed. KB
+  Description: ... is not followed. Symptoms When running an applet in a browser using the Sun KB
+  Total terms in file: 164
+  Total terms indexed: 116
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\article-18.html"
+  Last updated: 
+  File Size: 1 KB
+  Title: Redirection between HTTP URL and HTTPS URL is not followed. KB
+  Description: ... read. Symptoms CJK (Chinese-Japanese-Korean) fonts, when displayed in BOLD, are hard to read. Cause KB
+  Total terms in file: 51
+  Total terms indexed: 28
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\deployment.html"
+  Last updated: 
+  File Size: 4 KB
+  Title: Internet/Intranet Deployment of the Sun JRE KB
+  Description: ... Internet deployment If you would like to have your internet customers download Sun's Java KB
+  Total terms in file: 190
+  Total terms indexed: 130
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\index-BU.html"
+  Last updated: 
+  File Size: 14 KB
+  Title: Upgrading From the Microsoft to the Sun Java Virtual Machine KB
+  Description: ... Microsoft JVM to the Sun JRE Search Guide Overview Upgrade Rationale The Microsoft Java KB
+  Total terms in file: 369
+  Total terms indexed: 273
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\index-SAVE.html"
+  Last updated: 
+  File Size: 16 KB
+  Title: Upgrading From the Microsoft to the Sun Java Virtual Machine KB
+  Description: ... Microsoft VM for Java to the Sun JRE Search Guide Overview Upgrade Rationale The KB
+  Total terms in file: 377
+  Total terms indexed: 280
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\index.html"
+  Last updated: 
+  File Size: 16 KB
+  Title: Upgrading From the Microsoft to the Sun Java Virtual Machine KB
+  Description: ... Microsoft VM for Java to the Sun JRE Search Guide This guide explains why KB
+  Total terms in file: 371
+  Total terms indexed: 272
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\test.html"
+  Last updated: 
+  File Size: 4 KB
+  Title: test KB
+  Description: ... { &nbsp;&nbsp;&nbsp;boolean redir; &nbsp;&nbsp;&nbsp;int redirects = 0; &nbsp;&nbsp;&nbsp;InputStream in = null; &nbsp;&nbsp;&nbsp;do &nbsp;&nbsp;&nbsp;{ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if KB
+  Total terms in file: 85
+  Total terms indexed: 61
+
+Enter directory: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\DevaSearch"
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\DevaSearch\help.html"
+  Last updated: 
+  File Size: 2 KB
+  Title: Search Java Upgrade Guide KB
+  Description: ... between them. The search engine searches for any instance of each term in the KB
+  Total terms in file: 79
+  Total terms indexed: 47
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\DevaSearch\search.html"
+  Last updated: 
+  File Size: 1 KB
+  Title: Search Java Upgrade Guide KB
+  Description: ... viewed by a browser which supports frames. KB
+  Total terms in file: 17
+  Total terms indexed: 10
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\DevaSearch\searchalt.html"
+  Last updated: 
+  File Size: 1 KB
+  Title: Deva Search - Refresh previous page or no Javascript KB
+  Description: ... Results? Click the Back button on your browser, refresh the page, and then click KB
+  Total terms in file: 40
+  Total terms indexed: 20
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\DevaSearch\searchresults.html"
+  Last updated: 
+  File Size: 3 KB
+  Title: Search Java Upgrade Guide KB
+  Description: ... KB
+  Total terms in file: 4
+  Total terms indexed: 4
+
+Indexed "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\DevaSearch\searchtopframe.html"
+  Last updated: 
+  File Size: 14 KB
+  Title: Search Java Upgrade Guide KB
+  Description: ... &nbsp; Tips KB
+  Total terms in file: 52
+  Total terms indexed: 36
+
+Enter directory: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\images"
+Enter directory: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\images\_notes"
+Enter directory: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\upgrade-guide\styles"
+Saved index file: C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\DevaSearch\devasearch.js (77KB)
+Write output file: "searchtopframe.html".
+Write output file: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\DevaSearch\help.html".
+Write output file: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\DevaSearch\search.html".
+Write output file: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\DevaSearch\searchalt.html".
+Write output file: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\DevaSearch\searchresults.html".
+Write output file: "C:\Dreamweaver\Projects\java.sun.com\j2se\1.5.0\docs\guide\deployment\deployment-guide\DevaSearch\style.css".
+Finished: Indexed 2248 terms from 48 files (312KB) with 8423 total terms.
